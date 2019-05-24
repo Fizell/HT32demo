@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: liu jizheng, GDUT, LIC=KIV74-FTZLH-VGH7J-UR2ZR-1AVNJ-DED6I
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Liujizheng\Desktop\HAT\-Miner-hat-master\example\HAT\HT32_HAT\project\Project_52352.uvprojx
+Project File Date:  05/23/2019
+
+<h2>Output:</h2>
+Build target 'HT32'
+compiling main.c...
+..\user\main.c(52): warning:  #1295-D: Deprecated declaration init_GPIO_D1 - give arg types
+  void init_GPIO_D1();
+..\user\main.c(101): warning:  #188-D: enumerated type mixed with another type
+                GPIO_WriteOutBits(HTCFG_LED1, HTCFG_OUTPUT_LED1_GPIO_PIN, wear_flag);
+..\user\main.c(81): warning:  #177-D: variable "i" was declared but never referenced
+        u8 i,j;
+..\user\main.c(81): warning:  #177-D: variable "j" was declared but never referenced
+        u8 i,j;
+..\user\main.c(83): warning:  #177-D: variable "TmpStatus" was declared but never referenced
+        FlagStatus TmpStatus = RESET;
+..\user\main.c(233): warning:  #940-D: missing return statement at end of non-void function "check_type"
+  }
+..\user\main.c(331): warning:  #177-D: variable "i" was declared but never referenced
+        u32 i,j;
+..\user\main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=3436 RO-data=32 RW-data=280 ZI-data=936  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o C:\Users\Liujizheng\Desktop\HAT\-Miner-hat-master\example\HAT\HT32_HAT\project\HT32\52352\Obj\HT32.axf.bin C:\Users\Liujizheng\Desktop\HAT\-Miner-hat-master\example\HAT\HT32_HAT\project\HT32\52352\Obj\HT32.axf
+".\HT32\52352\Obj\HT32.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Liujizheng\Desktop\HAT\-Miner-hat-master\example\HAT\HT32_HAT\project\RTE
+  C:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.14
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
